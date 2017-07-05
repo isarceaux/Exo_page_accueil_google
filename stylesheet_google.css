@@ -6,6 +6,15 @@ p
 	color:rgb(64,64,64);
 }
 
+a
+{
+	text-decoration:none;
+}
+
+body
+{
+	margin:none;
+}
 
 /*Elements of the header*/
 header
@@ -26,14 +35,12 @@ header #topright
 	align-items:center;
 	width:280px;
 	height: 50px;
-/*	border: 0.3px solid blue; */
 }
 
 
 header a
 {
 	color:black;
-	text-decoration: none;
 }
 
 header img
@@ -76,8 +83,8 @@ form input
 	width: 580px;
 	height:42px;
 	text-align: left;
-	border: 0.1px solid grey;
-	box-shadow: 0px 2px 2px grey;
+	border: 0.1px solid rgb(228,228,228);
+	box-shadow: 0px 4px 4px rgb(228,228,228);
 	font-size: 30px;
 }
 
@@ -110,4 +117,34 @@ form .button
 form
 {
 	padding-top: 20px;
+}
+
+/*Footer*/
+footer
+{
+	border-top:1px solid rgb(228,228,228);
+	background-color: rgb(242,242,242);
+	height:40px;
+	width: 100%;
+	margin-left:0px;
+	color:grey;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+footer a
+{
+	color:rgb(102,102,102);
+}
+
+
+footer .bottom
+{
+	display: flex;
+	flex-direction: row;
+	width:280px;
+	justify-content: space-around;
+	padding-left: 10px;
+	padding-right: 10px;
 }
