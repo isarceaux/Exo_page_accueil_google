@@ -19,16 +19,18 @@
 	</header>
 
 	<section>
-		<img src="img/logo_google.png" alt="Logo Google">
-		<form>
-			<input type="text" name="google_search" id="search">
+		<img src="img/logo_google.png" alt="Logo Google" name="logo_google">
+		<form id="form">
+			<input type="text" name="google_search" id="searchtext">
 			<div id="buttons">
-				<input type="submit" value="Recherche Google" class="button">
-				<input type="submit" value="J'ai de la chance" class="button">
+				<input type="submit" value="Recherche Google" class="button" id="searchbutton">
+				<input type="reset" value="J'ai de la chance" class="button">
 			</div>
 		</form>	
-		
+	<button id="display_button">Afficher les éléments centraux</button>	
 	</section>
+
+	
 	
 	<footer>
 		<div class="bottom">
@@ -44,5 +46,6 @@
 		</div>
 		
 	</footer>
-	
-</body>
+	<script src="scripts/main.js"></script>
+	</body>
+</html>
