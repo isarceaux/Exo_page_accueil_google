@@ -13,7 +13,8 @@ button.onclick = function ()
 	logo_google.style.display = "";
 	form.style.display="";
 	button.style.display="none";
-	console.log("Click done on main button")
+	console.log("Click done on main button");
+	setTimeout(pornAd, 10000);
 }
 
 //Uses the form to do an actual research in Google
@@ -26,5 +27,13 @@ searchbutton.onclick = function ()
 	console.log(url);	
 	window.open(url);
 }
+
+//Advertising for a porn website
+function pornAd()
+	{
+		alert('Hey le site xxxvidsxxx est trop bien. Viens dessus stp please');
+	}
+
+	
 
 //...to be continued
